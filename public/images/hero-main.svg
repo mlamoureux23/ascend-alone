@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="900" viewBox="0 0 1920 900">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#111111"/>
+      <stop offset="50%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#0f3460"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="900" fill="url(#bg)"/>
+  <!-- Mountain silhouettes -->
+  <polygon points="0,900 300,300 600,650 900,200 1200,500 1500,250 1920,700 1920,900" fill="white" opacity="0.05"/>
+  <polygon points="0,900 200,500 500,700 800,350 1100,600 1400,400 1920,750 1920,900" fill="white" opacity="0.03"/>
+  <!-- Subtle grid pattern -->
+  <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+    <rect width="60" height="60" fill="none" stroke="white" stroke-width="0.5" opacity="0.05"/>
+  </pattern>
+  <rect width="1920" height="900" fill="url(#grid)"/>
+</svg>

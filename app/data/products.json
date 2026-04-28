@@ -1,0 +1,112 @@
+[
+  {
+    "id": "ascend-runner-1",
+    "name": "Ascend Runner",
+    "subtitle": "Men's Running Shoe",
+    "price": 159.99,
+    "image": "/images/product-1.svg",
+    "category": "running",
+    "featured": true,
+    "description": "Engineered for the solo path. Lightweight mesh upper with responsive cushioning that adapts to your stride.",
+    "sizes": ["7", "8", "9", "10", "11", "12"]
+  },
+  {
+    "id": "summit-trainer-1",
+    "name": "Summit Trainer",
+    "subtitle": "Unisex Training Shoe",
+    "price": 139.99,
+    "image": "/images/product-2.svg",
+    "category": "training",
+    "featured": true,
+    "description": "Built for every rep. Stable platform with lateral support for dynamic movements and heavy lifts.",
+    "sizes": ["6", "7", "8", "9", "10", "11", "12"]
+  },
+  {
+    "id": "peak-lifestyle-1",
+    "name": "Peak Street",
+    "subtitle": "Men's Lifestyle Shoe",
+    "price": 119.99,
+    "image": "/images/product-3.svg",
+    "category": "lifestyle",
+    "featured": true,
+    "description": "From the trail to the street. Clean lines with premium materials for all-day comfort.",
+    "sizes": ["7", "8", "9", "10", "11", "12"]
+  },
+  {
+    "id": "ridge-runner-1",
+    "name": "Ridge Runner",
+    "subtitle": "Women's Running Shoe",
+    "price": 149.99,
+    "image": "/images/product-4.svg",
+    "category": "running",
+    "featured": true,
+    "description": "Conquer every mile. Breathable knit upper with energy-return sole technology.",
+    "sizes": ["5", "6", "7", "8", "9", "10"]
+  },
+  {
+    "id": "crest-trainer-1",
+    "name": "Crest Trainer",
+    "subtitle": "Women's Training Shoe",
+    "price": 129.99,
+    "image": "/images/product-5.svg",
+    "category": "training",
+    "featured": false,
+    "description": "Train without limits. Flexible forefoot with reinforced heel for explosive movements.",
+    "sizes": ["5", "6", "7", "8", "9", "10"]
+  },
+  {
+    "id": "solo-slide-1",
+    "name": "Solo Slide",
+    "subtitle": "Unisex Slide",
+    "price": 49.99,
+    "image": "/images/product-6.svg",
+    "category": "lifestyle",
+    "featured": false,
+    "description": "Recovery starts here. Contoured footbed with soft foam for post-workout comfort.",
+    "sizes": ["6", "7", "8", "9", "10", "11", "12"]
+  },
+  {
+    "id": "altitude-max-1",
+    "name": "Altitude Max",
+    "subtitle": "Men's Running Shoe",
+    "price": 189.99,
+    "image": "/images/product-7.svg",
+    "category": "running",
+    "featured": false,
+    "description": "Maximum cushion for maximum distance. Carbon-plate technology for elite performance.",
+    "sizes": ["7", "8", "9", "10", "11", "12"]
+  },
+  {
+    "id": "basecamp-low-1",
+    "name": "Basecamp Low",
+    "subtitle": "Unisex Lifestyle Shoe",
+    "price": 109.99,
+    "image": "/images/product-8.svg",
+    "category": "lifestyle",
+    "featured": false,
+    "description": "Everyday essential. Minimalist design with premium leather and suede details.",
+    "sizes": ["6", "7", "8", "9", "10", "11", "12"]
+  },
+  {
+    "id": "traverse-pro-1",
+    "name": "Traverse Pro",
+    "subtitle": "Men's Training Shoe",
+    "price": 159.99,
+    "image": "/images/product-9.svg",
+    "category": "training",
+    "featured": false,
+    "description": "Cross-training redefined. Rope-grip outsole with lockdown fit for functional fitness.",
+    "sizes": ["7", "8", "9", "10", "11", "12"]
+  },
+  {
+    "id": "zenith-run-1",
+    "name": "Zenith Run",
+    "subtitle": "Women's Running Shoe",
+    "price": 169.99,
+    "image": "/images/product-10.svg",
+    "category": "running",
+    "featured": false,
+    "description": "Reach your zenith. Ultra-light construction with plush landing for tempo runs.",
+    "sizes": ["5", "6", "7", "8", "9", "10"]
+  }
+]
