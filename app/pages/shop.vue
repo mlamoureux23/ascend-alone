@@ -48,6 +48,7 @@ const categories = [
   { label: 'Running', value: 'running' },
   { label: 'Training', value: 'training' },
   { label: 'Lifestyle', value: 'lifestyle' },
+  { label: 'Apparel', value: 'apparel' },
 ]
 
 const activeCategory = ref('all')

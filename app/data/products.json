@@ -1,5 +1,29 @@
 [
   {
+    "id": "ascend-hoodie-1",
+    "name": "Ascend Hoodie",
+    "subtitle": "Unisex Pullover Hoodie",
+    "price": 89.99,
+    "image": "/images/hoodie-front.jpg",
+    "images": ["/images/hoodie-front.jpg", "/images/hoodie-back.jpg"],
+    "category": "apparel",
+    "featured": true,
+    "description": "As high as you can. Premium heavyweight hoodie with embroidered AA logo, kangaroo pocket, and branded sleeve details. Built for those who rise alone.",
+    "sizes": ["S", "M", "L", "XL", "XXL"]
+  },
+  {
+    "id": "ascend-sweater-1",
+    "name": "Ascend Sweater",
+    "subtitle": "Unisex Crewneck Sweater",
+    "price": 79.99,
+    "image": "/images/sweater-front.jpg",
+    "images": ["/images/sweater-front.jpg", "/images/sweater-back.jpg"],
+    "category": "apparel",
+    "featured": true,
+    "description": "As high as you can. Premium crewneck sweater with embroidered AA logo and branded sleeve details. Clean lines for the solo climber.",
+    "sizes": ["S", "M", "L", "XL", "XXL"]
+  },
+  {
     "id": "ascend-runner-1",
     "name": "Ascend Runner",
     "subtitle": "Men's Running Shoe",

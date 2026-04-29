@@ -2,12 +2,26 @@
   <div v-if="product" class="max-w-[1440px] mx-auto px-6 md:px-12 py-12">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16">
       <!-- Product Image -->
-      <div class="aspect-[4/5] bg-brand-gray-100 overflow-hidden">
-        <img
-          :src="product.image"
-          :alt="product.name"
-          class="w-full h-full object-cover"
-        />
+      <div>
+        <div class="aspect-square bg-brand-gray-100 overflow-hidden">
+          <img
+            :src="activeImage"
+            :alt="product.name"
+            class="w-full h-full object-cover"
+          />
+        </div>
+        <!-- Thumbnail gallery for multi-image products -->
+        <div v-if="product.images && product.images.length > 1" class="flex gap-3 mt-3">
+          <button
+            v-for="(img, index) in product.images"
+            :key="index"
+            class="w-20 h-20 bg-brand-gray-100 overflow-hidden border-2 transition-colors"
+            :class="activeImage === img ? 'border-brand-black' : 'border-transparent hover:border-brand-gray-300'"
+            @click="activeImage = img"
+          >
+            <img :src="img" :alt="`${product.name} view ${index + 1}`" class="w-full h-full object-cover" />
+          </button>
+        </div>
       </div>
 
       <!-- Product Details -->
@@ -74,6 +88,7 @@ if (product) {
   useHead({ title: `${product.name} | Ascend Alone` })
 }
 
+const activeImage = ref(product?.image || '')
 const selectedSize = ref('')
 const addedToCart = ref(false)
 const showSizeWarning = ref(false)
